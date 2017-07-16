@@ -1,4 +1,4 @@
-package com.ubs.opsit.interviews;
+package com.ubs.opsit.interviews.converter;
 
 import com.ubs.opsit.interviews.controller.ClockHandler;
 import org.slf4j.Logger;

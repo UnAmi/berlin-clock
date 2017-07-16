@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Rectangle?>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="700.0"
+            prefWidth="800.0" xmlns:fx="http://javafx.com/fxml/1"
+            fx:controller="com.ubs.opsit.interviews.controller.fx.MainController">
+    <VBox alignment="TOP_CENTER" layoutX="57.0" layoutY="7.0" prefHeight="686.0" prefWidth="700.0">
+        <HBox alignment="CENTER" maxHeight="-Infinity" minHeight="-Infinity" prefHeight="120.0" prefWidth="400.0">
+            <Circle fx:id="secondsCircle" fill="#777777" radius="60.0" stroke="BLACK" strokeType="CENTERED"/>
+        </HBox>
+        <HBox fx:id="majorHoursLabels" alignment="CENTER" prefHeight="120.0" prefWidth="483.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+        </HBox>
+        <HBox fx:id="minorHoursLabels" alignment="CENTER" prefHeight="120.0" prefWidth="483.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+        </HBox>
+        <HBox fx:id="majorMinutesLabels" alignment="CENTER" prefHeight="120.0" prefWidth="483.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="44.0"/>
+        </HBox>
+        <HBox fx:id="minorMinutesLabels" alignment="CENTER" prefHeight="120.0" prefWidth="200.0">
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#777777" height="104.0" stroke="BLACK" strokeType="INSIDE"
+                       width="121.0"/>
+        </HBox>
+        <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0">
+            <Label fx:id="digitalClock" text="Label"/>
+        </HBox>
+    </VBox>
+</AnchorPane>
